@@ -6,7 +6,7 @@ Vagrant.configure("2") do |config|
 
   ## Choose your base box, not necessarily this one
   config.vm.box = "precise-server-amd64"
-  config.vm.box_url = "http://vagrant.gsoi.fr/precise-server-amd64.box"
+  config.vm.box_url = "https://cloud-images.ubuntu.com/vagrant/precise/current/precise-server-cloudimg-amd64-vagrant-disk1.box"
 
   ## Variables for NFS
   _not_windows = RUBY_PLATFORM =~ /darwin/ || RUBY_PLATFORM =~ /linux/
